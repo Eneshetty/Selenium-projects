@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Positive test case(failed)">
+    <classes>
+      <class name="module3.Dependency">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- module3.Dependency -->
+    </classes>
+  </test> <!-- Positive test case(failed) -->
+</suite> <!-- Failed suite [Practice testing] -->

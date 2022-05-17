@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="Padmaja &lt;peneshetty@gmail.com&gt;"/>
+		<item value="padma &lt;padma@10.0.0.95&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Padmaja &lt;peneshetty@gmail.com&gt;"/>
+		<item value="padma &lt;padma@10.0.0.95&gt;"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Eneshetty/Selenium-projects.git"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\padma\git\Selenium-projects\.git">
+			<item value="false"/>
+			<item value="Padmaja &lt;peneshetty@gmail.com&gt;"/>
+			<item value="commit2"/>
+			<item value="Padmaja &lt;peneshetty@gmail.com&gt;"/>
+			<item value="430b3ddc7eecd46d489fa16b1a590d1262a631fa"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-15T11:54:40 GMT-05:00" name="Practice testing" finished-at="2022-02-15T11:54:52 GMT-05:00" duration-ms="12366">
+    <groups>
+    </groups>
+    <test started-at="2022-02-15T11:54:40 GMT-05:00" name="Positive test case" finished-at="2022-02-15T11:54:52 GMT-05:00" duration-ms="12366">
+      <class name="module3.Dependency">
+        <test-method signature="openBrowser()[pri:0, instance:module3.Dependency@5fa07e12]" started-at="2022-02-15T11:54:40 GMT-05:00" name="openBrowser" finished-at="2022-02-15T11:54:41 GMT-05:00" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openAUT()[pri:1, instance:module3.Dependency@5fa07e12]" started-at="2022-02-15T11:54:41 GMT-05:00" name="openAUT" finished-at="2022-02-15T11:54:43 GMT-05:00" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAUT -->
+        <test-method signature="signIn()[pri:2, instance:module3.Dependency@5fa07e12]" started-at="2022-02-15T11:54:43 GMT-05:00" name="signIn" finished-at="2022-02-15T11:54:44 GMT-05:00" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="login()[pri:3, instance:module3.Dependency@5fa07e12]" started-at="2022-02-15T11:54:44 GMT-05:00" name="login" finished-at="2022-02-15T11:54:46 GMT-05:00" depends-on-methods="module3.Dependency.signIn" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:4, instance:module3.Dependency@5fa07e12]" started-at="2022-02-15T11:54:46 GMT-05:00" name="logout" finished-at="2022-02-15T11:54:51 GMT-05:00" depends-on-methods="module3.Dependency.login" duration-ms="5635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="quit()[pri:5, instance:module3.Dependency@5fa07e12]" started-at="2022-02-15T11:54:51 GMT-05:00" name="quit" finished-at="2022-02-15T11:54:52 GMT-05:00" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- module3.Dependency -->
+    </test> <!-- Positive test case -->
+  </suite> <!-- Practice testing -->
+</testng-results>
